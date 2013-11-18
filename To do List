@@ -1,0 +1,19 @@
+11/17/2013 lists, first three could be done, 4-6 needs CX’s follow up.
+
+1.	Create Github project for Freebase in diversification.
+2.	Build Index for Wikipedia dump. Same as Freebase. 
+  a.	shared python script to transfer Wikipedia to TRECWEB
+3.	Run Indri on Web track Diversity task queries, and evaluate the QL baseline.
+  a.	Using IndriRunQuery API
+  b.	Using QueryEnviroment API
+4.	Sub topic generation:
+  a.	Term level: DSPApprox (shared Java code)
+  b.	Topic level: generate subtopic from Freebase objects, 
+    i.	(CX) code to be shared
+5.	Explicit search result diversification framework
+  a.	IASelection and PM-2
+    i.	(CX) code to be shared
+6.	Experiment: (CX) to be specified.
+  a.	Run Query result catching
+  b.	parameter switching
+  c.	multiple times cross validation for average performance.
